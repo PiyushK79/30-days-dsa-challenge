@@ -26,7 +26,7 @@ string encryption(string s) {
 
     auto it = find(s.begin(), s.end(), ' ');
 
-    while (it != s.end())
+    while (it != s.end())   //remove spacess
     {
         s.erase(it);
         it = std::find(s.begin(), s.end(), ' ');
